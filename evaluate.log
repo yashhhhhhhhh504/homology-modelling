@@ -1,0 +1,2433 @@
+
+                         MODELLER 10.4, 2022/10/28, r12463
+
+     PROTEIN STRUCTURE MODELLING BY SATISFACTION OF SPATIAL RESTRAINTS
+
+
+                     Copyright(c) 1989-2022 Andrej Sali
+                            All Rights Reserved
+
+                             Written by A. Sali
+                               with help from
+              B. Webb, M.S. Madhusudhan, M-Y. Shen, G.Q. Dong,
+          M.A. Marti-Renom, N. Eswar, F. Alber, M. Topf, B. Oliva,
+             A. Fiser, R. Sanchez, B. Yerkovich, A. Badretdinov,
+                     F. Melo, J.P. Overington, E. Feyfant
+                 University of California, San Francisco, USA
+                    Rockefeller University, New York, USA
+                      Harvard University, Cambridge, USA
+                   Imperial Cancer Research Fund, London, UK
+              Birkbeck College, University of London, London, UK
+
+
+Kind, OS, HostName, Kernel, Processor: 4, Darwin Yashs-macbook-Air-4.local 23.1.0 arm64
+Date and time of compilation         : 2022/10/28 13:23:21
+MODELLER executable type             : mac12arm64-gnu
+Job starting time (YY/MM/DD HH:MM:SS): 2024/03/11 23:03:24
+
+openf___224_> Open           $(LIB)/restyp.lib
+openf___224_> Open           ${MODINSTALL10v4}/modlib/resgrp.lib
+rdresgr_266_> Number of residue groups:        2
+openf___224_> Open           ${MODINSTALL10v4}/modlib/sstruc.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       191566     187.076     0.183
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       192094     187.592     0.183
+openf___224_> Open           ${MODINSTALL10v4}/modlib/resdih.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       240694     235.053     0.230
+rdrdih__263_> Number of dihedral angle types         :        9
+              Maximal number of dihedral angle optima:        3
+              Dihedral angle names                   :  Alph Phi Psi Omeg chi1 chi2 chi3 chi4 chi5
+openf___224_> Open           ${MODINSTALL10v4}/modlib/radii.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:       253994     248.041     0.242
+openf___224_> Open           ${MODINSTALL10v4}/modlib/af_mnchdef.lib
+rdwilmo_274_> Mainchain residue conformation classes:  APBLE
+openf___224_> Open           ${MODINSTALL10v4}/modlib/mnch.lib
+rdclass_257_> Number of classes:        5
+openf___224_> Open           ${MODINSTALL10v4}/modlib/mnch1.lib
+openf___224_> Open           ${MODINSTALL10v4}/modlib/mnch2.lib
+openf___224_> Open           ${MODINSTALL10v4}/modlib/mnch3.lib
+openf___224_> Open           ${MODINSTALL10v4}/modlib/xs4.mat
+rdrrwgh_268_> Number of residue types:       21
+openf___224_> Open           $(LIB)/top_heav.lib
+read_to_681_> topology.submodel read from topology file:        3
+openf___224_> Open           $(LIB)/par.lib
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       393438     384.217     0.375
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       395038     385.779     0.377
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       399018     389.666     0.381
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       401018     391.619     0.382
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       404018     394.549     0.385
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       408518     398.943     0.390
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       414090     404.385     0.395
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       416890     407.119     0.398
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       421090     411.221     0.402
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       427390     417.373     0.408
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       430162     420.080     0.410
+
+Dynamically allocated memory at  amaxparameters [B,KiB,MiB]:       431562     421.447     0.412
+read_pa_232_> parameters    BONDS   ANGLS  DIHEDS IMPROPS    MODE
+                              227     561     661     112       0
+openf___224_> Open           4nqa.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       442599     432.226     0.422
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       442675     432.300     0.422
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       442846     432.467     0.422
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       443696     433.297     0.423
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       444954     434.525     0.424
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       446858     436.385     0.426
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       446898     436.424     0.426
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       446988     436.512     0.426
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       449844     439.301     0.429
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       449904     439.359     0.429
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       450039     439.491     0.429
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       454323     443.675     0.433
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       454411     443.761     0.433
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       454609     443.954     0.434
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       461035     450.229     0.440
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       461167     450.358     0.440
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       461464     450.648     0.440
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       471086     460.045     0.449
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       471286     460.240     0.449
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       471736     460.680     0.450
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       486186     474.791     0.464
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       486486     475.084     0.464
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       487161     475.743     0.465
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       508819     496.894     0.485
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       509267     497.331     0.486
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       510275     498.315     0.487
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       542779     530.058     0.518
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       542863     530.140     0.518
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       542863     530.140     0.518
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       543535     530.796     0.518
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       545047     532.272     0.520
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       593803     579.886     0.566
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       594811     580.870     0.567
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       597079     583.085     0.569
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       670213     654.505     0.639
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       670269     654.560     0.639
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       670269     654.560     0.639
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       670353     654.642     0.639
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       670353     654.642     0.639
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       780037     761.755     0.744
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       781549     763.231     0.745
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       784951     766.554     0.749
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       787219     768.769     0.751
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       792322     773.752     0.756
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       956848     934.422     0.913
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:       956960     934.531     0.913
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:       956960     934.531     0.913
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      2130992    2081.047     2.032
+read_mo_297_> Segments, residues, atoms:       12     1507    12844
+read_mo_298_> Segment:        1  128:A  456:A     2513
+read_mo_298_> Segment:        2  74:B  458:B     2934
+read_mo_298_> Segment:        3  687:C  696:C       89
+read_mo_298_> Segment:        4  687:D  698:D      101
+read_mo_298_> Segment:        5  501:E  518:E      366
+read_mo_298_> Segment:        6  501:F  518:F      366
+read_mo_298_> Segment:        7  127:H  458:H     2528
+read_mo_298_> Segment:        8  75:I  459:I     3016
+read_mo_298_> Segment:        9  687:J  698:J      101
+read_mo_298_> Segment:       10  686:K  696:K       98
+read_mo_298_> Segment:       11  501:L  518:L      366
+read_mo_298_> Segment:       12  501:M  518:M      366
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      2175647    2124.655     2.075
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      3084354    3012.064     2.941
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3098485    3025.864     2.955
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      4007192    3913.273     3.822
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4044184    3949.398     3.857
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      317   2513   2560      0         0      1032
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4150116    4052.848     3.958
+
+patch_______> segment topology patched using RTF:  1 ;  ALA  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      317   2513   2560   3446      4038      1032
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4260612    4160.754     4.063
+patch_______> segment topology patched using RTF:  317 ;  GLU  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      317   2514   2561   3448      4040      1033
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      317   2514   2561   3448      4040      1033
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4303524    4202.660     4.104
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     2      686   5454   5552   3448      4040      2218
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4426648    4322.898     4.222
+
+patch_______> segment topology patched using RTF:  318 ;  LYS  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     2      686   5454   5552   7463      8724      2218
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4545224    4438.695     4.335
+patch_______> segment topology patched using RTF:  686 ;  ASP  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     2      686   5455   5553   7465      8726      2219
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     2      686   5455   5553   7465      8726      2219
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4561192    4454.289     4.350
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     3      696   5544   5643   7465      8726      2258
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4564780    4457.793     4.353
+
+patch_______> segment topology patched using RTF:  687 ;  HIS  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     3      696   5544   5643   7584      8861      2258
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4564836    4457.848     4.353
+patch_______> segment topology patched using RTF:  696 ;  ASP  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     3      696   5545   5644   7586      8863      2259
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     3      696   5545   5644   7586      8863      2259
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     4      708   5646   5746   7586      8863      2302
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4568936    4461.852     4.357
+
+patch_______> segment topology patched using RTF:  697 ;  HIS  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     4      708   5646   5746   7721      9018      2302
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4614752    4506.594     4.401
+patch_______> segment topology patched using RTF:  708 ;  SER  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     4      708   5647   5747   7723      9020      2303
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     4      708   5647   5747   7723      9020      2303
+
+getf_______W> RTF restraint not found in the atoms list:
+              residue type, indices:    48   726
+              atom names           : O3'   +P
+              atom indices         :  6016     0
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     5      726   6016   6160   7723      9020      2339
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4635604    4526.957     4.421
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     5      726   6016   6160   8358      9847      2339
+
+getf_______W> RTF restraint not found in the atoms list:
+              residue type, indices:    51   744
+              atom names           : O3'   +P
+              atom indices         :  6385     0
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     6      744   6385   6573   8358      9847      2375
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4656456    4547.320     4.441
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     6      744   6385   6573   8993     10674      2375
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4688344    4578.461     4.471
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     7     1063   8921   9154   8993     10674      3408
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4794984    4682.602     4.573
+
+patch_______> segment topology patched using RTF:  745 ;  MET  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     7     1063   8921   9154  12465     14735      3408
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4915880    4800.664     4.688
+patch_______> segment topology patched using RTF:  1063 ;  PRO  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     7     1063   8922   9155  12467     14737      3409
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     7     1063   8922   9155  12467     14737      3409
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4959992    4843.742     4.730
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     8     1448  11948  12234  12467     14737      4625
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5086920    4967.695     4.851
+
+patch_______> segment topology patched using RTF:  1064 ;  LYS  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     8     1448  11948  12234  16603     19568      4625
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5260976    5137.672     5.017
+patch_______> segment topology patched using RTF:  1448 ;  VAL  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     8     1448  11949  12235  16605     19570      4626
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     8     1448  11949  12235  16605     19570      4626
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5295352    5171.242     5.050
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     9     1460  12050  12337  16605     19570      4669
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5299452    5175.246     5.054
+
+patch_______> segment topology patched using RTF:  1449 ;  HIS  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     9     1460  12050  12337  16740     19725      4669
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5299508    5175.301     5.054
+patch_______> segment topology patched using RTF:  1460 ;  SER  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     9     1460  12051  12338  16742     19727      4670
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     9     1460  12051  12338  16742     19727      4670
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    10     1471  12149  12437  16742     19727      4711
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5303436    5179.137     5.058
+
+patch_______> segment topology patched using RTF:  1461 ;  LYS  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    10     1471  12149  12437  16872     19875      4711
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5303492    5179.191     5.058
+patch_______> segment topology patched using RTF:  1471 ;  ASP  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    10     1471  12150  12438  16874     19877      4712
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    10     1471  12150  12438  16874     19877      4712
+
+getf_______W> RTF restraint not found in the atoms list:
+              residue type, indices:    48  1489
+              atom names           : O3'   +P
+              atom indices         : 12519     0
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    11     1489  12519  12851  16874     19877      4748
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5324344    5199.555     5.078
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    11     1489  12519  12851  17509     20704      4748
+
+getf_______W> RTF restraint not found in the atoms list:
+              residue type, indices:    51  1507
+              atom names           : O3'   +P
+              atom indices         : 12888     0
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    12     1507  12888  13264  17509     20704      4784
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      5345196    5219.918     5.098
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                    12     1507  12888  13264  18144     21531      4784
+transfe_506_> MODEL is an average of all templates.
+transfe_511_> Number of templates for coordinate transfer:        1
+              After transferring coordinates of the equivalent template atoms,
+              there are defined, undefined atoms in MODEL:    12844       44
+buildc__467W> All coordinates in MODEL have been assigned.
+buildc__468W> Some coordinates in MODEL are still undefined.
+buildc__467W> All coordinates in MODEL have been assigned.
+buildc__468W> Some coordinates in MODEL are still undefined.
+buildc__467W> All coordinates in MODEL have been assigned.
+buildc__468W> Some coordinates in MODEL are still undefined.
+invent__464W> Inventing the MODEL coordinates.
+openf___224_> Open           yd1.B99990005.pdb
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3480033    3398.470     3.319
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3480109    3398.544     3.319
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3480280    3398.711     3.319
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3481130    3399.541     3.320
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3482388    3400.770     3.321
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3484292    3402.629     3.323
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3484332    3402.668     3.323
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3484422    3402.756     3.323
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3487278    3405.545     3.326
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3487338    3405.604     3.326
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3487473    3405.735     3.326
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3491757    3409.919     3.330
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3491845    3410.005     3.330
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3492043    3410.198     3.330
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3498469    3416.474     3.336
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3498601    3416.603     3.337
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3498898    3416.893     3.337
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3508520    3426.289     3.346
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3508720    3426.484     3.346
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3509170    3426.924     3.347
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3523620    3441.035     3.360
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3523920    3441.328     3.361
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3524595    3441.987     3.361
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3546253    3463.138     3.382
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3546701    3463.575     3.382
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3547709    3464.560     3.383
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3580213    3496.302     3.414
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3580885    3496.958     3.415
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3582397    3498.435     3.416
+
+Dynamically allocated memory at amaxcoordinates [B,KiB,MiB]:      3631153    3546.048     3.463
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      3978993    3885.735     3.795
+read_mo_297_> Segments, residues, atoms:        1      447     3541
+read_mo_298_> Segment:        1  1:A  447:A     3541
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3992908    3899.324     3.808
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      4253225    4153.540     4.056
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      4257816    4158.023     4.061
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      4518133    4412.239     4.309
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4570021    4462.911     4.358
+
+mkilst______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      447   3540   3616      0         0      1435
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4721057    4610.407     4.502
+
+patch_______> segment topology patched using RTF:  1 ;  MET  ;  NTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      447   3540   3616   4886      5777      1435
+
+
+Dynamically allocated memory at       amaxmodel [B,KiB,MiB]:      4880113    4765.735     4.654
+patch_______> segment topology patched using RTF:  447 ;  GLU  ;  CTER
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      447   3541   3617   4888      5779      1436
+
+genseg______> segment topology constructed from sequence and RTF:
+              segments residues  atoms  bonds angles dihedrals impropers:
+                     1      447   3541   3617   4888      5779      1436
+transfe_506_> MODEL is an average of all templates.
+transfe_511_> Number of templates for coordinate transfer:        1
+              After transferring coordinates of the equivalent template atoms,
+              there are defined, undefined atoms in MODEL:     3541        0
+openf___224_> Open           ${LIB}/atmcls-mf.lib
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4341401    4239.649     4.140
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4341465    4239.712     4.140
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4341523    4239.769     4.140
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4341587    4239.831     4.140
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4341653    4239.896     4.141
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4341717    4239.958     4.141
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4341873    4240.110     4.141
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4342001    4240.235     4.141
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4342295    4240.522     4.141
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4342487    4240.710     4.141
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4342991    4241.202     4.142
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4343247    4241.452     4.142
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4344243    4242.425     4.143
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4344627    4242.800     4.143
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4345203    4243.362     4.144
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4347237    4245.349     4.146
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4348133    4246.224     4.147
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4352585    4250.571     4.151
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4353929    4251.884     4.152
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4363547    4261.276     4.161
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4365531    4263.214     4.163
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4386177    4283.376     4.183
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4389185    4286.313     4.186
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4435151    4331.202     4.230
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4439631    4335.577     4.234
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4540851    4434.425     4.330
+openf___224_> Open           ${LIB}/dist-mf.lib
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4541247    4434.812     4.331
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4542043    4435.589     4.332
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4542839    4436.366     4.332
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4544027    4437.526     4.334
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4544427    4437.917     4.334
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4545027    4438.503     4.334
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4545927    4439.382     4.335
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4547275    4440.698     4.337
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4547475    4440.894     4.337
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4549499    4442.870     4.339
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4549799    4443.163     4.339
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4552835    4446.128     4.342
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4553283    4446.565     4.342
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4557835    4451.011     4.347
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4558507    4451.667     4.347
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4565335    4458.335     4.354
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4566343    4459.319     4.355
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4576587    4469.323     4.365
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4577187    4469.909     4.365
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4577587    4470.300     4.366
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4579099    4471.776     4.367
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4594463    4486.780     4.382
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4595363    4487.659     4.382
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4595963    4488.245     4.383
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4598231    4490.460     4.385
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4621279    4512.968     4.407
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4622623    4514.280     4.408
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4623523    4515.159     4.409
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4626927    4518.483     4.413
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4661499    4552.245     4.446
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4663515    4554.214     4.447
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4664863    4555.530     4.449
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4669967    4560.515     4.454
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4721823    4611.155     4.503
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4724847    4614.108     4.506
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4726871    4616.085     4.508
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4734527    4623.562     4.515
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4812311    4699.522     4.589
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4816847    4703.952     4.594
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4819883    4706.917     4.597
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4831367    4718.132     4.608
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4948043    4832.073     4.719
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4954847    4838.718     4.725
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4959399    4843.163     4.730
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      4976627    4859.987     4.746
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5151643    5030.901     4.913
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5161855    5040.874     4.923
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5168683    5047.542     4.929
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5194523    5072.776     4.954
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5457047    5329.147     5.204
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5472359    5344.101     5.219
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5482603    5354.104     5.229
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5521363    5391.956     5.266
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5915147    5776.511     5.641
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5938115    5798.940     5.663
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      5953479    5813.944     5.678
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      6011619    5870.722     5.733
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      6602295    6447.554     6.296
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      6636747    6481.198     6.329
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      6659795    6503.706     6.351
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      6747007    6588.874     6.434
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      7633023    7454.124     7.279
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      7684707    7504.597     7.329
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      7719279    7538.358     7.362
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      7850095    7666.108     7.486
+
+Dynamically allocated memory at amaxgroup_restr [B,KiB,MiB]:      9179119    8963.983     8.754
+read_pa_232_> parameters    BONDS   ANGLS  DIHEDS IMPROPS    MODE
+                                0       0       0       0   12561
+>> Model assessment by DOPE potential
+iatmcls_286W> MODEL atom not classified:  GLU:OXT  GLU
+iatmcls_286W> MODEL atom not classified:  ASP:OXT  ASP
+iatmcls_286W> MODEL atom not classified:  ASP:OXT  ASP
+iatmcls_286W> MODEL atom not classified:  SER:OXT  SER
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  PRO:OXT  PRO
+iatmcls_286W> MODEL atom not classified:  VAL:OXT  VAL
+iatmcls_286W> MODEL atom not classified:  SER:OXT  SER
+iatmcls_286W> MODEL atom not classified:  ASP:OXT  ASP
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DGUA:P  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:OP2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O4'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C1'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N9  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C4  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N3  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N1  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N2  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O6  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C5  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:N7  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C8  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C2'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:C3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DGUA:O3'  DGUA
+iatmcls_286W> MODEL atom not classified:  DADE:P  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:OP2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O4'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C1'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C5  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N7  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C8  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N9  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N1  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N3  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C4  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:N6  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C2'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:C3'  DADE
+iatmcls_286W> MODEL atom not classified:  DADE:O3'  DADE
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:P  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:OP2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O4'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C1'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N1  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C6  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O2  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N3  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:N4  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C5  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C2'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:C3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DCYT:O3'  DCYT
+iatmcls_286W> MODEL atom not classified:  DTHY:P  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:OP2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C1'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N1  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C6  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O2  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:N3  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O4  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C5  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C7  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C2'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:C3'  DTHY
+iatmcls_286W> MODEL atom not classified:  DTHY:O3'  DTHY
+preppdf_453W> No fixed restraints selected; there may be some dynamic ones.
+preppdf_454W> Restraints file was probably not read; use restraints.append().
+
+Dynamically allocated memory at amaxhash_contac [B,KiB,MiB]:     12890987   12588.854    12.294
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     13492903   13176.663    12.868
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     13802215   13478.726    13.163
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     14420839   14082.851    13.753
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     15658087   15291.101    14.933
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     18132583   17707.602    17.293
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     23081575   22540.602    22.012
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     32979559   32206.602    31.452
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     52775527   51538.602    50.331
+
+
+>> ENERGY; Differences between the model's features and restraints:
+Number of all residues in MODEL                   :     1507
+Number of all, selected real atoms                :    12888   12888
+Number of all, selected pseudo atoms              :        0       0
+Number of all static, selected restraints         :        0       0
+COVALENT_CYS                                      :        F
+NONBONDED_SEL_ATOMS                               :        1
+Number of non-bonded pairs (excluding 1-2,1-3,1-4):  2537094
+Dynamic pairs routine                             : 1, NATM x NATM double loop
+Atomic shift for contacts update (UPDATE_DYNAMIC) :    0.390
+LENNARD_JONES_SWITCH                              :    6.500   7.500
+COULOMB_JONES_SWITCH                              :    6.500   7.500
+RESIDUE_SPAN_RANGE                                :        1    9999
+NLOGN_USE                                         :       15
+CONTACT_SHELL                                     :   15.000
+DYNAMIC_PAIRS,_SPHERE,_COULOMB,_LENNARD,_MODELLER :        T       F       F       F       T
+SPHERE_STDV                                       :    0.050
+RADII_FACTOR                                      :    0.820
+Current energy                                    :     -161358.3438
+
+
+
+
+
+Summary of the restraint violations: 
+
+   NUM     ... number of restraints.
+   NUMVI   ... number of restraints with RVIOL > VIOL_REPORT_CUT[i].
+   RVIOL   ... relative difference from the best value.
+   NUMVP   ... number of restraints with -Ln(pdf) > VIOL_REPORT_CUT2[i].
+   RMS_1   ... RMS(feature, minimally_violated_basis_restraint, NUMB).
+   RMS_2   ... RMS(feature, best_value, NUMB).
+   MOL.PDF ... scaled contribution to -Ln(Molecular pdf).
+
+ #                     RESTRAINT_GROUP      NUM   NUMVI  NUMVP   RMS_1   RMS_2         MOL.PDF     S_i
+------------------------------------------------------------------------------------------------------
+ 1 Bond length potential              :       0       0      0   0.000   0.000      0.0000       0.000
+ 2 Bond angle potential               :       0       0      0   0.000   0.000      0.0000       0.000
+ 3 Stereochemical cosine torsion poten:       0       0      0   0.000   0.000      0.0000       0.000
+ 4 Stereochemical improper torsion pot:       0       0      0   0.000   0.000      0.0000       0.000
+ 5 Soft-sphere overlap restraints     :       0       0      0   0.000   0.000      0.0000       0.000
+ 6 Lennard-Jones 6-12 potential       :       0       0      0   0.000   0.000      0.0000       0.000
+ 7 Coulomb point-point electrostatic p:       0       0      0   0.000   0.000      0.0000       0.000
+ 8 H-bonding potential                :       0       0      0   0.000   0.000      0.0000       0.000
+ 9 Distance restraints 1 (CA-CA)      :       0       0      0   0.000   0.000      0.0000       0.000
+10 Distance restraints 2 (N-O)        :       0       0      0   0.000   0.000      0.0000       0.000
+11 Mainchain Phi dihedral restraints  :       0       0      0   0.000   0.000      0.0000       0.000
+12 Mainchain Psi dihedral restraints  :       0       0      0   0.000   0.000      0.0000       0.000
+13 Mainchain Omega dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+14 Sidechain Chi_1 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+15 Sidechain Chi_2 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+16 Sidechain Chi_3 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+17 Sidechain Chi_4 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+18 Disulfide distance restraints      :       0       0      0   0.000   0.000      0.0000       0.000
+19 Disulfide angle restraints         :       0       0      0   0.000   0.000      0.0000       0.000
+20 Disulfide dihedral angle restraints:       0       0      0   0.000   0.000      0.0000       0.000
+21 Lower bound distance restraints    :       0       0      0   0.000   0.000      0.0000       0.000
+22 Upper bound distance restraints    :       0       0      0   0.000   0.000      0.0000       0.000
+23 Distance restraints 3 (SDCH-MNCH)  :       0       0      0   0.000   0.000      0.0000       0.000
+24 Sidechain Chi_5 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+25 Phi/Psi pair of dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+26 Distance restraints 4 (SDCH-SDCH)  :       0       0      0   0.000   0.000      0.0000       0.000
+27 Distance restraints 5 (X-Y)        :       0       0      0   0.000   0.000      0.0000       0.000
+28 NMR distance restraints 6 (X-Y)    :       0       0      0   0.000   0.000      0.0000       0.000
+29 NMR distance restraints 7 (X-Y)    :       0       0      0   0.000   0.000      0.0000       0.000
+30 Minimal distance restraints        :       0       0      0   0.000   0.000      0.0000       0.000
+31 Non-bonded restraints              : 2168509       0   1352   6.784   6.784    -0.16136E+06   1.000
+32 Atomic accessibility restraints    :       0       0      0   0.000   0.000      0.0000       0.000
+33 Atomic density restraints          :       0       0      0   0.000   0.000      0.0000       0.000
+34 Absolute position restraints       :       0       0      0   0.000   0.000      0.0000       0.000
+35 Dihedral angle difference restraint:       0       0      0   0.000   0.000      0.0000       0.000
+36 GBSA implicit solvent potential    :       0       0      0   0.000   0.000      0.0000       0.000
+37 EM density fitting potential       :       0       0      0   0.000   0.000      0.0000       0.000
+38 SAXS restraints                    :       0       0      0   0.000   0.000      0.0000       0.000
+39 Symmetry restraints                :       0       0      0   0.000   0.000      0.0000       0.000
+do_prof_492W> Are you sure you want to calculate a normalized energy profile!
+
+
+
+openf___224_> Open           Template.profile
+# Energy of each residue is written to: Template.profile
+# The profile IS normalized by the number of restraints.
+# The profiles are smoothed over a window of residues:   13
+# The sum of all numbers in the file:     -51.5829
+
+<< end of ENERGY.
+DOPE score               : -161358.343750
+>> Model assessment by DOPE potential
+iatmcls_286W> MODEL atom not classified:  GLU:OXT  GLU
+preppdf_453W> No fixed restraints selected; there may be some dynamic ones.
+preppdf_454W> Restraints file was probably not read; use restraints.append().
+
+Dynamically allocated memory at amaxhash_contac [B,KiB,MiB]:     53502687   52248.719    51.024
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     53880275   52617.457    51.384
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     53965259   52700.449    51.465
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     54135227   52866.434    51.627
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     54475163   53198.402    51.952
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     55155035   53862.340    52.600
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     56514779   55190.215    53.897
+
+Dynamically allocated memory at  amaxrestraints [B,KiB,MiB]:     59234267   57845.965    56.490
+
+
+>> ENERGY; Differences between the model's features and restraints:
+Number of all residues in MODEL                   :      447
+Number of all, selected real atoms                :     3541    3541
+Number of all, selected pseudo atoms              :        0       0
+Number of all static, selected restraints         :        0       0
+COVALENT_CYS                                      :        F
+NONBONDED_SEL_ATOMS                               :        1
+Number of non-bonded pairs (excluding 1-2,1-3,1-4):   648245
+Dynamic pairs routine                             : 1, NATM x NATM double loop
+Atomic shift for contacts update (UPDATE_DYNAMIC) :    0.390
+LENNARD_JONES_SWITCH                              :    6.500   7.500
+COULOMB_JONES_SWITCH                              :    6.500   7.500
+RESIDUE_SPAN_RANGE                                :        1    9999
+NLOGN_USE                                         :       15
+CONTACT_SHELL                                     :   15.000
+DYNAMIC_PAIRS,_SPHERE,_COULOMB,_LENNARD,_MODELLER :        T       F       F       F       T
+SPHERE_STDV                                       :    0.050
+RADII_FACTOR                                      :    0.820
+Current energy                                    :      -36188.3984
+
+
+
+
+
+Summary of the restraint violations: 
+
+   NUM     ... number of restraints.
+   NUMVI   ... number of restraints with RVIOL > VIOL_REPORT_CUT[i].
+   RVIOL   ... relative difference from the best value.
+   NUMVP   ... number of restraints with -Ln(pdf) > VIOL_REPORT_CUT2[i].
+   RMS_1   ... RMS(feature, minimally_violated_basis_restraint, NUMB).
+   RMS_2   ... RMS(feature, best_value, NUMB).
+   MOL.PDF ... scaled contribution to -Ln(Molecular pdf).
+
+ #                     RESTRAINT_GROUP      NUM   NUMVI  NUMVP   RMS_1   RMS_2         MOL.PDF     S_i
+------------------------------------------------------------------------------------------------------
+ 1 Bond length potential              :       0       0      0   0.000   0.000      0.0000       0.000
+ 2 Bond angle potential               :       0       0      0   0.000   0.000      0.0000       0.000
+ 3 Stereochemical cosine torsion poten:       0       0      0   0.000   0.000      0.0000       0.000
+ 4 Stereochemical improper torsion pot:       0       0      0   0.000   0.000      0.0000       0.000
+ 5 Soft-sphere overlap restraints     :       0       0      0   0.000   0.000      0.0000       0.000
+ 6 Lennard-Jones 6-12 potential       :       0       0      0   0.000   0.000      0.0000       0.000
+ 7 Coulomb point-point electrostatic p:       0       0      0   0.000   0.000      0.0000       0.000
+ 8 H-bonding potential                :       0       0      0   0.000   0.000      0.0000       0.000
+ 9 Distance restraints 1 (CA-CA)      :       0       0      0   0.000   0.000      0.0000       0.000
+10 Distance restraints 2 (N-O)        :       0       0      0   0.000   0.000      0.0000       0.000
+11 Mainchain Phi dihedral restraints  :       0       0      0   0.000   0.000      0.0000       0.000
+12 Mainchain Psi dihedral restraints  :       0       0      0   0.000   0.000      0.0000       0.000
+13 Mainchain Omega dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+14 Sidechain Chi_1 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+15 Sidechain Chi_2 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+16 Sidechain Chi_3 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+17 Sidechain Chi_4 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+18 Disulfide distance restraints      :       0       0      0   0.000   0.000      0.0000       0.000
+19 Disulfide angle restraints         :       0       0      0   0.000   0.000      0.0000       0.000
+20 Disulfide dihedral angle restraints:       0       0      0   0.000   0.000      0.0000       0.000
+21 Lower bound distance restraints    :       0       0      0   0.000   0.000      0.0000       0.000
+22 Upper bound distance restraints    :       0       0      0   0.000   0.000      0.0000       0.000
+23 Distance restraints 3 (SDCH-MNCH)  :       0       0      0   0.000   0.000      0.0000       0.000
+24 Sidechain Chi_5 dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+25 Phi/Psi pair of dihedral restraints:       0       0      0   0.000   0.000      0.0000       0.000
+26 Distance restraints 4 (SDCH-SDCH)  :       0       0      0   0.000   0.000      0.0000       0.000
+27 Distance restraints 5 (X-Y)        :       0       0      0   0.000   0.000      0.0000       0.000
+28 NMR distance restraints 6 (X-Y)    :       0       0      0   0.000   0.000      0.0000       0.000
+29 NMR distance restraints 7 (X-Y)    :       0       0      0   0.000   0.000      0.0000       0.000
+30 Minimal distance restraints        :       0       0      0   0.000   0.000      0.0000       0.000
+31 Non-bonded restraints              :  647917       0   1480   6.782   6.782     -36188.       1.000
+32 Atomic accessibility restraints    :       0       0      0   0.000   0.000      0.0000       0.000
+33 Atomic density restraints          :       0       0      0   0.000   0.000      0.0000       0.000
+34 Absolute position restraints       :       0       0      0   0.000   0.000      0.0000       0.000
+35 Dihedral angle difference restraint:       0       0      0   0.000   0.000      0.0000       0.000
+36 GBSA implicit solvent potential    :       0       0      0   0.000   0.000      0.0000       0.000
+37 EM density fitting potential       :       0       0      0   0.000   0.000      0.0000       0.000
+38 SAXS restraints                    :       0       0      0   0.000   0.000      0.0000       0.000
+39 Symmetry restraints                :       0       0      0   0.000   0.000      0.0000       0.000
+do_prof_492W> Are you sure you want to calculate a normalized energy profile!
+
+
+
+openf___224_> Open           yd1.profile
+# Energy of each residue is written to: yd1.profile
+# The profile IS normalized by the number of restraints.
+# The profiles are smoothed over a window of residues:   13
+# The sum of all numbers in the file:     -13.2719
+
+<< end of ENERGY.
+DOPE score               : -36188.398438

@@ -1,0 +1,34 @@
+ _aln.pos         10        20        30        40        50        60
+4nqa      ---------------------------AS---F------------T---------------------- 
+yd1       MSLWLEAPVPDVSPDSAVELWEPDAQDASSQPLGSSKCILREESSTPQSAGDTSRMGLEAPEPTALLP 
+ _consrvd                            **                *
+
+ _aln.p   70        80        90       100       110       120       130
+4nqa      ----------------KH----------ICAICGDRSSGKHYGVYSCEGCKGFFKRTVRKDLTYTCRD 
+yd1       GVEAPPESTELRPQKRKKGPAPKMLGNELCSVCGDKASGFHYNVLSCEGCKGFFRRSVIKGARYVCHS 
+ _consrvd                 *            *  ***  ** ** * ********* * * *   * *
+
+ _aln.pos  140       150       160       170       180       190       200
+4nqa      NKDCLIDKRQRNRCQYCRYQKCLAMGMKREAV-------------QEERQ--------RGSSANEDMP 
+yd1       GGHCPMDTYMRRKCQECRLRKCRQAGMREECVLSEEQIRLKKMKRQEEEQAQATSAPPRASSPPQVLP 
+ _consrvd    *  *   *  ** **  **   **  * *             *** *        * **     *
+
+ _aln.pos    210       220       230       240       250       260       270
+4nqa      ---------VERILEAELAVEPKTETYE--AN---MGLNPSSP---NDPVTNICQAADKQLFTLVEWA 
+yd1       QLSPEQLGMIEKLVAAQQLCNRRSFSDQLRVTPWPMAPDPQSREARQQRFAHFTELAIVSVQEIVDFA 
+ _consrvd           *    *                   *   * *              *       *  *
+
+ _aln.pos      280       290       300       310       320       330       340
+4nqa      KRIPHFSELPLDDQVILLRAGWNELLIASFSHRSIAVKDGILLATGLHVHRNSAHSAGVGAIFDRVLT 
+yd1       KQLPGFLQLSREDQIALLKTSAIEVMLLETSRRYNPGSESITFLKDFSYNREDFAKAGLQVEFINPIF 
+ _consrvd *  * *  *   **  **     *      * *       *         *     **    *
+
+ _aln.pos        350       360       370       380       390       400
+4nqa      ELVSKMRDMQMDKTELGCLRAIVLFNPDSKGLSNPAEVEALREKVYASLEAYCKHKYPEQPGRFAKLL 
+yd1       EFSRAMNELQLNDAEFALLIAISIFSADRPNVQDKLKVERLQHTYVEALHAYVSIHHPHDRLMFPRML 
+ _consrvd *    *   *    *   * **  *  *         ** *       * **     *     *   *
+
+ _aln.p  410       420       430       440
+4nqa      LRLPALRSIGLKCLEHLFFFKLIGDTPIDTFLMEML---E 
+yd1       MKLVSLRTLSSVHSEQVFALRLQ-DKKLPPLLSEIWDVHE 
+ _consrvd   *  **       *  *   *  *      * *     *
